@@ -660,11 +660,6 @@
   dependencies:
     "@babel/types" "^7.20.7"
 
-"@types/damerau-levenshtein@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@types/damerau-levenshtein/-/damerau-levenshtein-1.0.2.tgz#24aa3aabf7b98cb77eea6f9a14aba41b380d9baf"
-  integrity sha512-2IcR1RKFITuOO24yzurWAS3/2Lo7ptVDTCL+YkCa4Ir1ZjjEfqsJa3nRMhqf4hb+4AkE5nd6cRzqp9qpVvWSfw==
-
 "@types/graceful-fs@^4.1.2":
   version "4.1.9"
   resolved "https://registry.yarnpkg.com/@types/graceful-fs/-/graceful-fs-4.1.9.tgz#2a06bc0f68a20ab37b3e36aa238be6abdf49e8b4"
@@ -1220,11 +1215,6 @@ cssstyle@^2.3.0:
   integrity sha512-AZL67abkUzIuvcHqk7c09cezpGNcxUxU4Ioi/05xHk4DQeTkWmGYftIE6ctU6AEt+Gn4n1lDStOtj7FKycP71A==
   dependencies:
     cssom "~0.3.6"
-
-damerau-levenshtein@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.8.tgz#b43d286ccbd36bc5b2f7ed41caf2d0aba1f8a6e7"
-  integrity sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==
 
 data-urls@^2.0.0:
   version "2.0.0"

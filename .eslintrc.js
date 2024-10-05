@@ -14,6 +14,10 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
   ],
   rules: {
+    "array-element-newline": ["error", {
+        "ArrayExpression": "consistent",
+        "ArrayPattern": { "minItems": 3 },
+    }],
     'indent': ["error", 2],
     semi: ["error", "never"],
     'node/no-missing-import': 'off',

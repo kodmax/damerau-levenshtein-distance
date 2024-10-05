@@ -1,29 +1,29 @@
-import { calculateStringDistance } from "../src/calculateStringDistance";
+import { calculateStringDistance } from './calculateStringDistance'
 
 describe('DamerauLevenshteinDistance', () => {
   it('should return distance between two strings', () => {
-    expect(calculateStringDistance('cat', 'cow')).toBe(2);
-  });
+    expect(calculateStringDistance('cat', 'cow')).toBe(2)
+  })
 
   it('should return distance between two strings', () => {
-    expect(calculateStringDistance('car', 'cat')).toBe(1);
-  });
+    expect(calculateStringDistance('car', 'cat')).toBe(1)
+  })
 
   it('should return distance between two strings', () => {
-    expect(calculateStringDistance('bow', 'ice')).toBe(3);
-  });
+    expect(calculateStringDistance('bow', 'ice')).toBe(3)
+  })
 
   it('should return 1 for single transposition', () => {
-    expect(calculateStringDistance('card', 'cadr')).toBe(1);
-  });
+    expect(calculateStringDistance('card', 'cadr')).toBe(1)
+  })
 
   it('should return distance between two strings', () => {
-    expect(calculateStringDistance('hot', 'hot')).toBe(0);
-  });
+    expect(calculateStringDistance('hot', 'hot')).toBe(0)
+  })
 
   it('should return 2 for transposition and insertion', () => {
-    expect(calculateStringDistance('ca', 'abc')).toBe(2);
-  });
+    expect(calculateStringDistance('ca', 'abc')).toBe(2)
+  })
 
   it('should return distance between two strings', () => {
     expect(
@@ -31,7 +31,7 @@ describe('DamerauLevenshteinDistance', () => {
         'Damerau–Levenshtein distance plays an important role in natural language processing. In natural languages, strings are short and the number of errors (misspellings) rarely exceeds 2. In such circumstances, restricted and real edit distance differ very rarely. Oommen and Loke[8] even mitigated the limitation of the restricted edit distance by introducing generalized transpositions. Nevertheless, one must remember that the restricted edit distance usually does not satisfy the triangle inequality, and thus cannot be used with metric trees.',
         'Since DNA frequently undergoes insertions, deletions, substitutions, and transpositions, and each of these operations occurs on approximately the same timescale, the Damerau–Levenshtein distance is an appropriate metric of the variation between two strands of DNA.[6] More common in DNA, protein, and other bioinformatics related alignment tasks is the use of closely related algorithms such as Needleman–Wunsch algorithm or Smith–Waterman algorithm.[citation needed]'
       )
-    ).toBe(405);
+    ).toBe(405)
   })
 
   it('should return distance between two strings', () => {
@@ -74,6 +74,6 @@ A 1914 English translation by Harris Rcakham reads:
 
 McClintock’s eye for detail certainly helped narrow the whereabouts of lorem ipsum’s origin, however, the “how and when” still remain something of a mystery, with competing theories and timelines.`
       )
-    ).toBe(23);
-  });
-});
+    ).toBe(23)
+  })
+})
