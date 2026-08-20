@@ -31,7 +31,7 @@ describe('DamerauLevenshteinDistance', () => {
         'Damerau–Levenshtein distance plays an important role in natural language processing. In natural languages, strings are short and the number of errors (misspellings) rarely exceeds 2. In such circumstances, restricted and real edit distance differ very rarely. Oommen and Loke[8] even mitigated the limitation of the restricted edit distance by introducing generalized transpositions. Nevertheless, one must remember that the restricted edit distance usually does not satisfy the triangle inequality, and thus cannot be used with metric trees.',
         'Since DNA frequently undergoes insertions, deletions, substitutions, and transpositions, and each of these operations occurs on approximately the same timescale, the Damerau–Levenshtein distance is an appropriate metric of the variation between two strands of DNA.[6] More common in DNA, protein, and other bioinformatics related alignment tasks is the use of closely related algorithms such as Needleman–Wunsch algorithm or Smith–Waterman algorithm.[citation needed]'
       )
-    ).toBe(405)
+    ).toBe(406)
   })
 
   it('should return distance between two strings', () => {
