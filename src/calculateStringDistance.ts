@@ -60,8 +60,8 @@ export const calculateStringDistance = (
         d[getIndex(ROW_WIDTH, k - 1, l - 1)] + (i - k - 1) + (j - l - 1) + 1
       )
 
-      da[a.charCodeAt(i - 1)] = i
     }
+    da[a.charCodeAt(i - 1)] = i
   }
 
   return d[getIndex(ROW_WIDTH, a.length, b.length)]
